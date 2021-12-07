@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    
+    font-family: "Halyard Text Regular";
+    src: url("fonts\89248b0583721153668df86453b579de.eot"); /* IE9*/
+    src: url("89248b0583721153668df86453b579de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts\89248b0583721153668df86453b579de.woff2") format("woff2"), /* chrome、firefox */
+    url("fonts\89248b0583721153668df86453b579de.woff") format("woff"), /* chrome、firefox */
+    url("fonts\89248b0583721153668df86453b579de.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("89248b0583721153668df86453b579de.svg#Halyard Text Regular") format("svg"); /* iOS 4.1- */
+  }
+.demo{
+    font-family:"Halyard Text Regular" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+html{
+    font-size: 16px;
+    font-family: "Halyard Text Regular";
+}
+.container{
+    max-width: 1125px;
+    width: 100%;
+    margin: auto;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    margin-top: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #1E266D;
+    font-weight: 400
+}
+.navigation{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 600px;
+    width: 100%;
+}
+.arrow{
+    position: absolute;
+    
+    margin-top: 6px
+}
